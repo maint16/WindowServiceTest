@@ -1,0 +1,8 @@
+/WindowsServiceTest/WindowsServiceTest/bin
+/WindowsServiceTest/WindowsServiceTest/obj
+/WindowsServiceTest/.vs/WindowsServiceTest/v15/*.suo
+/WindowsServiceTest/.vs/WindowsServiceTest/v15/Server/sqlite3/*.lock
+/WindowsServiceTest/.vs/WindowsServiceTest/v15/Server/sqlite3/*.ide
+/WindowsServiceTest/.vs/WindowsServiceTest/v15/Server/sqlite3/*.ide-shm
+/WindowsServiceTest/.vs/WindowsServiceTest/v15/Server/sqlite3/*.ide-wal
+/WindowsServiceTest/*.sln
