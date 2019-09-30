@@ -22,16 +22,20 @@ namespace WindowsServiceTest
 
         protected override void OnStart(string[] args)
         {
-
+            WriteToFile("Service is started at "+ DateTime.Now);
+            timer.Elapsed+= OnElapsendTime;
+            timer.Interval = 5000;
+            timer.Enabled = true;
         }
 
         protected override void OnStop()
         {
+            WriteToFile("Service is stopped at: " + DateTime.Now);
         }
 
         private void OnElapsendTime(object source, ElapsedEventArgs e)
         {
-
+            WriteToFile("Service is recall at "+ DateTime.Now);
         }
 
         public void WriteToFile(string message)
